@@ -1,0 +1,20 @@
+{
+  "name": "leon-typescript-config-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:app1": "tsc --project ./app1/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwangpu/leon-typescript-config-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwangpu/leon-typescript-config-learn/issues"
+  },
+  "homepage": "https://github.com/liwangpu/leon-typescript-config-learn#readme"
+}
