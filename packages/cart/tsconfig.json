@@ -1,9 +1,6 @@
 {
-  "extends": "../tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "../dist",
-    "module": "system",
-    // "outFile": "./main.js"
   },
   "files": [
     "./src/index.ts"

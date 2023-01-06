@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:app1": "tsc --project ./app1/tsconfig.json"
+    "preinstall": "cd packages/cart && yarn && cd ../app1 && yarn",
+    "build:app1": "cd packages/app1 && yarn run build",
+    "build:cart": "cd packages/cart && yarn run build"
   },
   "repository": {
     "type": "git",
